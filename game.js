@@ -43,7 +43,7 @@ let gameOverImg;
 let scoreImages = [];
 for (let i = 0; i < 10; i++) {
   let img = new Image();
-  img.src = "./assets/sprites/${i}.png";
+  img.src = `./assets/sprites/${i}.png`;
   scoreImages.push(img);
 }
 
